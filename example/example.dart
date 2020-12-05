@@ -8,6 +8,6 @@ void main() async {
   while (true) {
     print("Enter some text");
     var input = stdin.readLineSync();
-    print("Output: ${session.thinkThought(input)}");
+    print("Output: ${await session.thinkThought(input)}");
   }
 }

@@ -1,5 +1,5 @@
 name: coffeehouse
-description: Official API wrapper for Intellivoid's Coffeehouse API.
+description: Official asynchronous API wrapper for Intellivoid's Coffeehouse API.
 version: 0.1.0
 repository: https://github.com/intellivoid/CoffeeHouse-Dart-API-Wrapper
 dependencies:
