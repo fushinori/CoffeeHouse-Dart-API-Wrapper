@@ -37,7 +37,7 @@ class API {
         throw CoffeeHouseError(response.statusCode, result, "");
       }
     } else {
-      return result["payload"];
+      return result["payload"] ?? result["results"];
     }
   }
 
